@@ -25,3 +25,5 @@ yarn-error.log*
 .env
 
 .idea/
+
+public/quadratic_song.m4a
