@@ -1,3 +1,4 @@
+
 // src/components/LyricLine.jsx
 import { useEffect, useState } from 'react';
 

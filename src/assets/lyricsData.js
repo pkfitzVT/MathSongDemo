@@ -1,36 +1,50 @@
 export const lyrics = [
+    { text: "Qua", time: 0.0 },
+    { text: "du", time: 0.5 },
+    { text: "ra", time: 1.0 },
+    { text: "tic", time: 1.5 },
+
     { text: "Qua", time: 2.0 },
-    { text: "du", time: 2.3 },
-    { text: "ra", time: 2.6 },
-    { text: "tic", time:2.9 },
+    { text: "du", time: 2.5 },
+    { text: "ra", time: 3.0 },
+    { text: "tic", time: 3.5 },
 
-    { text: "Qua", time: 1. },
-    { text: "du", time: 1.6 },
-    { text: "ra", time: 1.9 },
-    { text: "tic", time: 2.2 },
+    { text: "finding", time: 5.0 },
+    { text: "roots", time: 6.0 },
 
-    { text: "finding", time: 2.5 },
-    { text: "roots", time: 2.8 },
+    { text: "degree", time: 7.0 },
+    { text: "of", time: 7.2 },
+    { text: "two", time: 7.4 },
 
-    { text: "degree", time: 3.1 },
-    { text: "of", time: 3.4 },
-    { text: "two", time: 3.7 },
+    { text: "Minus", time: 9.0 },
+    { text: "b", time: 9.2 },
+    { text: "plus", time: 9.4 },
+    { text: "or", time: 9.6 },
+    { text: "minus", time: 9.8 },
 
-    { text: "Minus", time: 4.0 },
-    { text: "b", time: 4.2 },
-    { text: "plus", time: 4.4 },
-    { text: "or", time: 4.6 },
-    { text: "minus", time: 4.8 },
-    { text: "Square", time: 5.0 },
-    { text: "root", time: 5.2 },
-    { text: "b", time: 5.4 },
-    { text: "squared", time: 5.6 },
-    { text: "minus", time: 5.8 },
-    { text: "four", time: 6.0 },
-    { text: "a", time: 6.2 },
-    { text: "c", time: 6.4 },
-    { text: "All", time: 6.6 },
-    { text: "over", time: 6.9 },
-    { text: "two", time: 7.2 },
-    { text: "a", time: 7.5 }
+    { text: "Square", time: 11.0 },
+    { text: "root", time: 11.2 },
+    { text: "b", time: 11.4 },
+    { text: "squared", time: 11.6 },
+    { text: "minus", time: 11.8 },
+
+    { text: "four", time: 14.0 },
+    { text: "a", time: 14.2 },
+    { text: "c", time: 14.4 },
+
+    { text: "All", time: 16.0 },
+    { text: "over", time: 16.2 },
+    { text: "two", time: 16.3 },
+    { text: "a", time: 16.4 },
+
+    { formulaPart: "minusB", time: 9.0 },
+    { formulaPart: "plusMinus", time: 9.4},
+    { formulaPart: "sqrt", time: 11.0 },
+    { formulaPart: "bSquared", time: 11.4 },
+    { formulaPart: "minus4ac", time: 14.0},
+    { formulaPart: "denominator", time: 16.3}
+
+
+
+
 ];

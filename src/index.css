@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.formula-background {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.1);
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+.formula-visible {
+  margin-top: 2rem;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #003366;
+}
+.formula-visible .highlight {
+  color: #d62828;
+  font-weight: bold;
+}
+.formula-visible.formula-main {
+  font-size: 2.8rem;  /* Larger than standard form */
+}
+.highlight {
+  color: red;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+.lyric-line {
+  margin: 1.5rem 0;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.lyric-line .highlight {
+  color: #d62828;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
