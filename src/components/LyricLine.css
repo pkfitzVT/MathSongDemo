@@ -1,0 +1,11 @@
+.lyric-line {
+    margin: 1.5rem 0;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.lyric-line .highlight {
+    color: #d62828;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
